@@ -76,7 +76,6 @@ export default function Home() {
             </button>
           </li>
           <li>
-            {" "}
             <button className="" onClick={handleClick}>
               {active ? (
                 <svg
@@ -207,7 +206,6 @@ export default function Home() {
             </button>
           </li>
           <li>
-            {" "}
             <button className="" onClick={handleClick}>
               {active ? (
                 <svg
@@ -256,9 +254,9 @@ export default function Home() {
       <div className=" flex flex-col items-center    xl:h-[885px]">
         <h1
           id="aboutme"
-          className="sm:text-2xl mt-20 mb-8 text-md  xl: m-auto font-extrabold relative after:content-[''] after:block after:h-[2px] after:bg-green-500 after:w-1/2 after:mx-auto after:mt-1"
+          className="sm:text-2xl mt-20 mb-8 text-md  xl: m-auto font-extrabold relative after:content-[] after:block after:h-[2px] after:bg-green-500 after:w-1/2 after:mx-auto after:mt-1"
         >
-          Hello world, I'm Maximiliano Duran!
+          Hello world, I am Maximiliano Duran!
         </h1>
 
         <div className=" mb-10  ">
@@ -328,7 +326,7 @@ export default function Home() {
                 width={40}
                 height={40}
                 className="object-scale-down "
-              />{" "}
+              />
             </a>
           </button>
           <button>
@@ -348,7 +346,7 @@ export default function Home() {
       <div className="flex flex-col gap-10 justify-center items-center  ">
         <h1
           id="skills"
-          className="text-2xl mt-10 m-auto font-extrabold relative after:content-[''] after:block after:h-[2px] after:bg-green-500 after:w-1/2 after:mx-auto after:mt-1"
+          className="text-2xl mt-10 m-auto font-extrabold relative after:content-[] after:block after:h-[2px] after:bg-green-500 after:w-1/2 after:mx-auto after:mt-1"
         >
           Skills
         </h1>
@@ -418,7 +416,7 @@ export default function Home() {
         </div>
         <h1
           id="proyects"
-          className="text-2xl m-auto  font-extrabold relative after:content-[''] after:block after:h-[2px] after:bg-green-500 after:w-1/2 after:mx-auto after:mt-1"
+          className="text-2xl m-auto  font-extrabold relative after:content-[] after:block after:h-[2px] after:bg-green-500 after:w-1/2 after:mx-auto after:mt-1"
         >
           Projects
         </h1>
@@ -444,7 +442,7 @@ export default function Home() {
         <div className="">
           <h1
             id="contact"
-            className="text-2xl m-auto font-extrabold relative after:content-[''] after:block after:h-[2px] after:bg-green-500 after:w-1/2 after:mx-auto after:mt-1"
+            className="text-2xl m-auto font-extrabold relative after:content-[] after:block after:h-[2px] after:bg-green-500 after:w-1/2 after:mx-auto after:mt-1"
           >
             Leave a message!
           </h1>
