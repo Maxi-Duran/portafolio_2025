@@ -231,11 +231,13 @@ export const proyects: Item[] = [
   },
   {
     id: 3,
-    url: "https://dulce-armonia.vercel.app/",
-    name: "Dulce armonia",
-    description: "Web Application, in progress",
+    url: "",
+    name: "AppSOS",
+    description:
+      "Mobile Application, in progress. Working as front-end developer in Idesoft",
     image: "",
   },
+
   {
     id: 4,
     url: "https://maxi-duran.github.io/SnakeGame-React/",
@@ -245,16 +247,18 @@ export const proyects: Item[] = [
   },
   {
     id: 5,
-    url: "",
+    url: "https://landing-page-abogados.vercel.app/",
     name: "Landing page",
-    description: "Coming soon",
+    description: "Landing page for lawyers",
     image: "",
   },
+
   {
-    id: 6,
+    id: 7,
     url: "",
-    name: "Coming soon",
-    description: "",
+    name: "Point of sale",
+    description:
+      "Web applicacion, in progress. Working as front-end developer in Idesoft",
     image: "",
   },
 ];
