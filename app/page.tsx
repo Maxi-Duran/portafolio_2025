@@ -1,9 +1,7 @@
 "use client";
 import Image from "next/image";
-import { data, proyects } from "./lib/data";
-import { data2 } from "./lib/data";
-import { data3 } from "./lib/data";
-import { data4 } from "./lib/data";
+import { proyects } from "./lib/data";
+
 import { useState } from "react";
 import { Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,7 +18,6 @@ import {
   Card,
   CardContent,
   CardHeader,
-  CardTitle,
   CardDescription,
 } from "@/components/ui/card";
 
