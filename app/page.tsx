@@ -583,8 +583,8 @@ export default function Home() {
               <Card className="lg:w-[50%] w-full ">
                 <CardHeader className="text-center">
                   <CardDescription>
-                    Fill out the form below and we'll get back to you as soon as
-                    possible.
+                    Fill out the form below and we&apos;ll get back to you as
+                    soon as possible.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
