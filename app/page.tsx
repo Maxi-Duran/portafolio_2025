@@ -45,7 +45,7 @@ export default function Home() {
     setAlertType("");
 
     try {
-      const res = await fetch("/api/send-email", {
+      await fetch("/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
