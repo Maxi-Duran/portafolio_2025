@@ -52,7 +52,6 @@ export default function Home() {
       });
 
       const result = await res.json();
-      console.log(result);
 
       setAlertMessage("Mensaje enviado correctamente.");
       setAlertType("success");
