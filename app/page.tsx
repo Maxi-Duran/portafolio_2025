@@ -13,7 +13,7 @@ import { AlertDescription } from "@/components/ui/alert";
 import { AlertTitle } from "@/components/ui/alert";
 import { useEffect } from "react";
 import { useRive } from "@rive-app/react-canvas";
-
+import Link from "next/link";
 import {
   Card,
   CardContent,
@@ -99,7 +99,7 @@ export default function Home() {
           <div className="w-[80%]  hidden md:block  backdrop-blur h-16 fixed top-0 left-1/2 transform -translate-x-1/2">
             <ol className="  h-16 flex  gap-10 items-center   ">
               <li className="text-xl font-bold ml-10 ">
-                <a href="/">Maximiliano Duran</a>
+                <Link href="/">Maximiliano Duran</Link>
               </li>
               <div className="ml-auto flex gap-10 items-center">
                 <li className="">
