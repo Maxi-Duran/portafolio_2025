@@ -51,8 +51,6 @@ export default function Home() {
         body: JSON.stringify(formData),
       });
 
-      const result = await res.json();
-
       setAlertMessage("Mensaje enviado correctamente.");
       setAlertType("success");
     } catch (err) {
